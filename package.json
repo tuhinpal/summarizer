@@ -1,0 +1,16 @@
+{
+  "name": "summarizer",
+  "version": "1.0.0",
+  "description": "Summarization of text",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js"
+  },
+  "author": "Tuhin Kanti Pal",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-summarizer": "^1.0.7"
+  }
+}
