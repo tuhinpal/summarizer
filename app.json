@@ -1,0 +1,5 @@
+{
+    "name": "summarizer",
+    "description": "Summarize a text, and send it through a HTTP API",
+    "repository": "https://github.com/cachecleanerjeet/summarizer"
+}

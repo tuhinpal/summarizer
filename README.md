@@ -2,7 +2,7 @@
 
 Summarize a text, and send it through a HTTP API
 
-### Request (CURL):
+### Request (CURL) :
 
 ```
 curl --location --request POST 'localhost:8080/summary?sentence=1' \
@@ -12,7 +12,7 @@ curl --location --request POST 'localhost:8080/summary?sentence=1' \
 }'
 ```
 
-### Response:
+### Response :
 
 #### Success (200)
 
@@ -40,6 +40,12 @@ curl --location --request POST 'localhost:8080/summary?sentence=1' \
     "msg": "something went wrong"
 }
 ```
+
+### Deploy :
+
+[![Deploy with Heroku](https://www.herokucdn.com/deploy/button.svg "Deploy with Heroku")](https://heroku.com/deploy?template=https://github.com/cachecleanerjeet/summarizer "Deploy with Heroku")
+
+[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/cachecleanerjeet/summarizer)
 
 ### License & Copyright :
 
