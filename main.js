@@ -16,7 +16,7 @@ app.post('/summary', async (req, res) => {
         res.json({ status: false, msg: "please provide text" })
     } else {
         try {
-            var Summarizer = new SummarizerManager(req.body.text, sentence);
+            var Summarizer = new SummarizerManager(req.body.text.replace(/\n/gi, '').replace(/\r/gi, '').replace(/  /gi, ''), sentence);
             var summary = await Summarizer.getSummaryByRank()
             res.json({ status: true, summary: summary.summary })
         } catch (error) {
